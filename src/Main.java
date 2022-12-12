@@ -1,7 +1,5 @@
 import br.com.dio.desafio.dominio.*;
-
 import java.time.LocalDate;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -52,12 +50,6 @@ public class Main {
         System.out.println("Avançoou no bootcamp.\nConteúdos inscritos " + dev2.getNome() + " - " + dev2.getConteudosInscritos());
         System.out.println("Conteúdos concluídos " + dev2.getNome() + " - " + dev1.getConteudosConcluidos());
         System.out.println("XP: " + dev2.calcularTotalXp());
-
-
-
-
-
-
 
     }
 }

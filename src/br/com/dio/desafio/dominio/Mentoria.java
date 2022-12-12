@@ -1,5 +1,4 @@
 package br.com.dio.desafio.dominio;
-
 import java.time.LocalDate;
 
 public class Mentoria extends Conteudo{
@@ -10,7 +9,6 @@ public class Mentoria extends Conteudo{
     public double calcularXp() {
         return XP_PADRAO+20d;
     }
-
 
     public LocalDate getData(LocalDate now) {
         return data;
@@ -28,6 +26,4 @@ public class Mentoria extends Conteudo{
                 ", data=" + data +
                 '}';
     }
-
-
 }
